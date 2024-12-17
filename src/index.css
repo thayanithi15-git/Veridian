@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "IBM_Plex_Serif"; */
+}
+
+@font-face {
+  font-family: "IBM_Plex_Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./font/IBM_Plex_Serif/IBMPlexSerif-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "DM_Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./font/DM_Sans/static/DMSans-Regular.ttf") format("woff2");
+}
