@@ -54,6 +54,9 @@ export const AboutusStyledNew = (theme) => ({
     height: "138px",
     boxShadow: "none",
     borderRadius: "0px",
+    "@media (max-width: 600px)": {
+      height: "100%",
+    },
   },
   Excellence_content: {
     display: "flex",

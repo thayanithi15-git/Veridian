@@ -8,6 +8,9 @@ export const HeaderStyledNew = (theme) => ({
     "@media (min-width: 1540px)": {
       width: "1200px",
     },
+    "@media (max-width: 600px)": {
+      gap: "60%"
+    },
   },
   logocon: {},
   titles: {

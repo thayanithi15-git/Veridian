@@ -4,6 +4,10 @@ export const getHomeStyled = (theme) => ({
     display: "flex",
     flexDirection: "column",
     width: "100vw",
+    "@media (max-width: 600px)": {
+      height: "100%",
+      width: "100%"
+    }
   },
   header: {
     backgroundColor: theme.palette.text[50],
