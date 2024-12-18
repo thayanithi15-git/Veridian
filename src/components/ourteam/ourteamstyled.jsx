@@ -84,9 +84,9 @@ export const OurteamStyledNew = (theme) => ({
   },
 
   contentParagraph: {
-    fontSize: "14px",
+    fontSize: theme.palette.fontsize.small,
     color: theme.palette.text[600],
-    fontFamily: "DM_sans",
+    fontFamily: theme.palette.fontfamily.m_sans,
   },
   subteam: {
     backgroundColor: "#009065",
@@ -124,19 +124,19 @@ export const OurteamStyledNew = (theme) => ({
 
   contentHeading: {
     margin: 0,
-    fontSize: "18px",
-    fontWeight: "bold",
+    fontSize: theme.palette.fontsize.large,
+    fontWeight: theme.palette.fontweight.bold,
     transform: "skew(40deg)",
-    fontFamily: "IBM_Plex_Serif",
+    fontFamily: theme.palette.fontfamily.dm_sans,
     "@media (max-width: 600px)": {
       transform: "skew(40deg)",
     },
   },
   contentSubHeading: {
-    fontSize: "14px",
-    fontWeight: "400",
+    fontSize: theme.palette.fontsize.small,
+    fontWeight: theme.palette.fontweight.normal,
     transform: "skew(40deg)",
-    fontFamily: "DM_sans",
+    fontFamily: theme.palette.fontfamily.dm_sans,
     "@media (max-width: 600px)": {
       transform: "skew(40deg)",
     },

@@ -7,7 +7,7 @@ export const getHomeStyled = (theme) => ({
   },
   header: {
     backgroundColor: theme.palette.text[50],
-    borderBottom: "2.5px solid #CACFDB",
+    borderBottom: `2.5px solid ${theme.palette.text[400]}`,
     height: "16.7%",
     display: "flex",
     alignItems: "center",
@@ -15,7 +15,6 @@ export const getHomeStyled = (theme) => ({
   },
   body: {
     backgroundColor: theme.palette.text[50],
-    // height: "83.3%",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",

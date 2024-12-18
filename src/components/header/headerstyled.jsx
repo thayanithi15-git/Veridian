@@ -1,8 +1,6 @@
-import zIndex from "@mui/material/styles/zIndex";
-
-export const HeaderStyled = {
+export const HeaderStyledNew = (theme) => ({
   main: {
-    fontFamily: "IBM_Plex_Serif",
+    fontFamily: theme.palette.fontfamily.ibm_plex,
     width: "90%",
     display: "flex",
     gap: "20rem",
@@ -20,19 +18,18 @@ export const HeaderStyled = {
     },
   },
   titleclicked: {
-    color: "#009065",
-    fontWeight: "550",
-    fontSize: "18px",
+    color: theme.palette.background.primary.main,
+    fontWeight: theme.palette.fontweight.bold,
+    fontSize: theme.palette.fontsize.large,
     cursor: "pointer",
-    fontWeight: "600",
     "@media (max-width: 600px)": {
       marginLeft: "6%",
     },
   },
   title: {
     cursor: "pointer",
-    fontWeight: "600",
-    fontSize: "18px",
+    fontWeight: theme.palette.fontweight.bold,
+    fontSize: theme.palette.fontsize.large,
     color: "#51585E",
     "&:hover": {
       color: "#009065",
@@ -75,4 +72,5 @@ export const HeaderStyled = {
   menuiconhide: {
     display: "none",
   },
-};
+}
+)

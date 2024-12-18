@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, useMediaQuery , useTheme } from "@mui/material";
 import React from "react";
 import Grid from "@mui/material/Grid2";
 import { InvestmentsStore } from "../zustand/store";
@@ -6,8 +6,12 @@ import { InvestmentStyledNew } from "./investmentstyled";
 import { lighttheme } from "../../theme/themeprovider";
 
 export default function Investment() {
+
   const InvestmentStyled = InvestmentStyledNew(lighttheme);
   const investmentsdetails = InvestmentsStore((state) => state.investments);
+
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   return (
     <Box>
@@ -30,6 +34,7 @@ export default function Investment() {
           </Grid>
         ))}
       </Grid>
+      
     </Box>
   );
 }

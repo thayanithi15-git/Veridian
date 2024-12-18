@@ -24,8 +24,25 @@ export const lighttheme = {
       },
       knowmore: "#0000004D",
       arrow: "#005139",
-      mailto : "#F9C300",
+      mailto: "#F9C300",
     },
-    
+    fontsize: {
+      verysmall: "12px",
+      small: "14px",
+      medium: "16px",
+      large: "18px",
+      verylarge: "32px",
+      extralarge: "48px"
+    },
+    fontfamily: {
+      ibm_plex: "IBM_Plex_Serif",
+      dm_sans: "DM_sans",
+    },
+    fontweight: {
+      normal: 400,
+      medium: 500,
+      bold: 600,
+      thickbold: 700,
+    }
   },
 };

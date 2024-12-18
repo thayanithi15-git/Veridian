@@ -6,7 +6,7 @@ export const InvestmentStyledNew = (theme) => ({
   },
   investimgcon: {
     width: "100%",
-    height: "32%",
+    // height: "32%",
   },
   investimg: {
     width: "100%",
@@ -20,19 +20,19 @@ export const InvestmentStyledNew = (theme) => ({
   },
   invest_title: {
     color: "#000000",
-    fontSize: "18px",
-    fontWeight: "bold",
-    fontFamily: "IBM_Plex_Serif",
-    marginTop: "8%",
+    fontSize: theme.palette.fontsize.large,
+    fontWeight: theme.palette.fontweight.bold,
+    fontFamily: theme.palette.fontfamily.ibm_plex,
+    marginTop: "1%",
     "@media (max-width: 600px)": {
-      marginTop: "12%",
+      marginTop: "2%",
     },
   },
   invest_description: {
     color: theme.palette.text[600],
-    fontSize: "14px",
-    fontWeight: "400",
-    fontFamily: "DM_sans",
+    fontSize: theme.palette.fontsize.small,
+    fontWeight: theme.palette.fontweight.normal,
+    fontFamily: theme.palette.fontfamily.dm_sans,
     marginTop: "5%",
     lineHeight: "20px",
   },

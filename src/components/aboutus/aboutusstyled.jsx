@@ -9,7 +9,7 @@ export const AboutusStyledNew = (theme) => ({
     borderRadius: "0px",
     boxShadow: "none",
     display: "flex",
-    fontFamily: "DM_sans",
+    fontFamily: theme.palette.fontfamily.dm_sans,
     padding: "3% 0%",
     justifyContent: "space-evenly",
     "@media (max-width: 600px)": {
@@ -22,20 +22,19 @@ export const AboutusStyledNew = (theme) => ({
     display: "flex",
     alignItems: "center",
     textAlign: "start",
-    fontSize: "14px",
+    fontSize: theme.palette.fontsize.small,
     width: "60%",
     color: theme.palette.text[700],
-    fontFamily: "DM_sans",
+    fontFamily: theme.palette.fontfamily.dm_sans,
     "@media (max-width: 600px)": {
       width: "90%",
     },
   },
   veridianimg: {
     width: "30%",
-    height: "100%",
     width: "300px",
     height: "200px",
-    "@media (max-width: 600px)": {
+    "@media (maxWidth: 600px)": {
       width: "250px ",
     },
   },
@@ -44,6 +43,9 @@ export const AboutusStyledNew = (theme) => ({
     alignItems: "center",
     justifyContent: "center",
     marginTop: "2%",
+    "@media (max-width: 600px)": {
+      marginTop: "5%",
+    },
   },
   Excellence: {
     backgroundColor: theme.palette.text[50],
@@ -63,14 +65,14 @@ export const AboutusStyledNew = (theme) => ({
   about_head: {
     display: "flex",
     color: theme.palette.text[800],
-    fontSize: "18px",
-    fontWeight: "bold",
-    fontFamily: "IBM_Plex_Serif",
+    fontSize: theme.palette.fontsize.large,
+    fontWeight: theme.palette.fontweight.bold,
+    fontFamily: theme.palette.fontfamily.ibm_plex,
   },
   about_content: {
-    fontSize: "14px",
+    fontSize: theme.palette.fontsize.small,
     color: theme.palette.text[700],
-    fontFamily: "DM_sans",
+    fontFamily: theme.palette.fontfamily.dm_sans,
   },
   about_images: {
     width: "100px",

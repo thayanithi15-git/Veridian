@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Logo from "../../assets/Logo.svg";
-import { HeaderStyled } from "./styled";
+import { HeaderStyledNew } from "./headerstyled";
 import { useNavigate } from "react-router-dom";
 import { useStore } from "../zustand/store";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useTheme, useMediaQuery, Box } from "@mui/material";
+import { lighttheme } from "../../theme/themeprovider";
 
 export default function Header() {
   const headers = [
@@ -19,6 +20,7 @@ export default function Header() {
 
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const HeaderStyled = HeaderStyledNew(lighttheme);
 
   const handleShowmenu = (event) => {
     event.stopPropagation();

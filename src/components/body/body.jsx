@@ -55,8 +55,11 @@ export default function Body() {
                   spacing={2}
                   size={12}
                   sx={BodyStyled.insidedesc}>
-                  <Grid item size={12} sx={BodyStyled.insidedesc}>
-                    <Grid item size={{ xs: 12, md: 11 }}>
+                  <Grid
+                    item
+                    size={{ xs: 12, md: 12 }}
+                    sx={BodyStyled.insidedesc}>
+                    <Grid size={{ xs: 12, md: 11 }}>
                       <Aboutus />
                     </Grid>
                   </Grid>

@@ -14,7 +14,7 @@ export default function Aboutus() {
     <Box sx={AboutusStyled.aboutuspage}>
       <Grid item size={{ xs: 11, md: 12 }}>
         <Box sx={AboutusStyled.mainveridian}>
-          <img src={MainVeridian} style={AboutusStyled.veridianimg} />
+          <img src={MainVeridian} style={AboutusStyled.veridianimg} alt="img" />
           <Typography sx={AboutusStyled.mainveridiancontent}>
             Veridian is an investment, management and development company based
             in Gibraltar. We create value in our investments by leveraging our
@@ -46,7 +46,11 @@ export default function Aboutus() {
                   {section.content}
                 </Typography>
               </Box>
-              <img src={section.image} style={AboutusStyled.about_images} />
+              <img
+                src={section.image}
+                style={AboutusStyled.about_images}
+                alt="img"
+              />
             </Box>
           </Grid>
         ))}
