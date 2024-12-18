@@ -31,7 +31,7 @@ export const AboutusStyledNew = (theme) => ({
     },
   },
   veridianimg: {
-    width: "30%",
+    // width: "30%",
     width: "300px",
     height: "200px",
     "@media (maxWidth: 600px)": {
