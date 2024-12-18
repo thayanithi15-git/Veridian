@@ -24,7 +24,7 @@ export const InvestmentStyledNew = (theme) => ({
     fontWeight: theme.palette.fontweight.bold,
     fontFamily: theme.palette.fontfamily.ibm_plex,
     marginTop: "1%",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       marginTop: "2%",
     },
   },

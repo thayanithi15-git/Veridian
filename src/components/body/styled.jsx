@@ -11,7 +11,7 @@ export const BodyStyledNew = (theme) => ({
   },
   main: {
     width: "90%",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       width: "100%",
     },
   },

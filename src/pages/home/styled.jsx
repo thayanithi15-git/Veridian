@@ -4,7 +4,7 @@ export const getHomeStyled = (theme) => ({
     display: "flex",
     flexDirection: "column",
     width: "100vw",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       height: "100%",
       width: "100%"
     }

@@ -27,7 +27,7 @@ export const OurteamStyledNew = (theme) => ({
     overflow: "hidden",
     boxShadow: "none",
     display: "flex",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
         justifyContent: "space-evenly",
       transform: "skew(0deg)",
       display: "flex",
@@ -75,7 +75,7 @@ export const OurteamStyledNew = (theme) => ({
     textAlign: "left",
     position: "relative",
     display: "flex",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       transform: "skew(0deg)",
       width: "93%",
       flexDirection: "column",
@@ -128,7 +128,7 @@ export const OurteamStyledNew = (theme) => ({
     fontWeight: theme.palette.fontweight.bold,
     transform: "skew(40deg)",
     fontFamily: theme.palette.fontfamily.dm_sans,
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       transform: "skew(40deg)",
     },
   },
@@ -137,7 +137,7 @@ export const OurteamStyledNew = (theme) => ({
     fontWeight: theme.palette.fontweight.normal,
     transform: "skew(40deg)",
     fontFamily: theme.palette.fontfamily.dm_sans,
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       transform: "skew(40deg)",
     },
   },

@@ -12,7 +12,7 @@ export const AboutusStyledNew = (theme) => ({
     fontFamily: theme.palette.fontfamily.dm_sans,
     padding: "3% 0%",
     justifyContent: "space-evenly",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       flexDirection: "column",
       alignItems: "center",
       width: "100%",
@@ -26,7 +26,7 @@ export const AboutusStyledNew = (theme) => ({
     width: "60%",
     color: theme.palette.text[700],
     fontFamily: theme.palette.fontfamily.dm_sans,
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       width: "90%",
     },
   },
@@ -34,7 +34,7 @@ export const AboutusStyledNew = (theme) => ({
     // width: "30%",
     width: "300px",
     height: "200px",
-    "@media (maxWidth: 600px)": {
+    "@media (maxWidth: 960px)": {
       width: "250px ",
     },
   },
@@ -43,7 +43,7 @@ export const AboutusStyledNew = (theme) => ({
     alignItems: "center",
     justifyContent: "center",
     marginTop: "2%",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       marginTop: "5%",
     },
   },
@@ -54,7 +54,7 @@ export const AboutusStyledNew = (theme) => ({
     height: "138px",
     boxShadow: "none",
     borderRadius: "0px",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       height: "100%",
     },
   },

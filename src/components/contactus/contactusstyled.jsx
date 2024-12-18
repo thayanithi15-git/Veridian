@@ -84,7 +84,7 @@ export const ContactusStyledNew = (theme) => ({
     fontFamily: theme.palette.fontfamily.dm_sans,
     fontSize: theme.palette.fontsize.small,
     fontWeight: theme.palette.fontweight.normal,
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       width: "80%",
       display: "flex",
       textAlign: "center"

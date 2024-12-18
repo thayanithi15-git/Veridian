@@ -5,7 +5,7 @@ export const MainStyledNew = (theme) => ({
     marginTop: "4%",
     gap: "1rem",
     position: "relative",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       marginTop: "0%",
     },
   },

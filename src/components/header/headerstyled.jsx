@@ -11,12 +11,15 @@ export const HeaderStyledNew = (theme) => ({
     "@media (max-width: 600px)": {
       gap: "60%"
     },
+    "@media (max-width: 960px) and (min-width: 600px)": {
+      gap: "80%",
+    },
   },
   logocon: {},
   titles: {
     display: "flex",
     gap: "2rem",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       display: "none",
     },
   },
@@ -25,7 +28,7 @@ export const HeaderStyledNew = (theme) => ({
     fontWeight: theme.palette.fontweight.bold,
     fontSize: theme.palette.fontsize.large,
     cursor: "pointer",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       marginLeft: "6%",
     },
   },
@@ -37,7 +40,7 @@ export const HeaderStyledNew = (theme) => ({
     "&:hover": {
       color: "#009065",
     },
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       marginLeft: "6%",
     },
   },
@@ -55,7 +58,7 @@ export const HeaderStyledNew = (theme) => ({
   },
   titlesresponse: {
     display: "none",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       width: "100% ",
       height: "300px",
       display: "flex",

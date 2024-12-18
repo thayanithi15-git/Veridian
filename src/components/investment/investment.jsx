@@ -11,7 +11,7 @@ export default function Investment() {
   const investmentsdetails = InvestmentsStore((state) => state.investments);
 
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
     <Box>

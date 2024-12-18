@@ -6,7 +6,7 @@ export const CopyrightStyledNew = (theme) => ({
     color: theme.palette.text[600],
     fontSize: theme.palette.fontsize.verysmall,
     fontFamily: "DM_sans",
-    "@media (max-width: 600px)": {
+    "@media (max-width: 960px)": {
       flexDirection: "column",
       gap: "1rem",
     },

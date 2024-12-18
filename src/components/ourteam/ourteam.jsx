@@ -19,7 +19,7 @@ export default function Ourteam() {
   const slidesdetails = SlideStore((state) => state.slides);
 
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
     <Swiper

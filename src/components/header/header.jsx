@@ -19,7 +19,7 @@ export default function Header() {
   const [menu, setMenu] = useState(false);
 
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const HeaderStyled = HeaderStyledNew(lighttheme);
 
   const handleShowmenu = (event) => {
